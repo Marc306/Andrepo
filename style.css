@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-rendering: optimizeLegibility;
+    background-attachment: fixed;
+}
+.header-box{
+    height: 100vh;
+    background-image:linear-gradient(rgba(10, 10, 10, 0.7), rgba(15, 15, 15, 0.6)), url("brown.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+.headermain{
+    color: rgba(255, 255, 255, 0.822);
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+    word-spacing: 0.1cm;
+    margin-bottom: 40px;
+}
+.logo img{
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 150px;
+    width: auto;
+}
+.btn{
+    font-weight: bold;
+    padding: 20px 20px 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 1px #deb887 solid;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+.btn-full{
+    background-color: #fda129; 
+}
+.btn-ghost{
+    color: lightgrey;
+}
+.btn-full:hover{
+    background-color: #ff9100;
+    color: white;
+    transition: 0.5s;
+}
+.btn-ghost:hover{
+    color: #000;
+    background-color:  #dfa65d;
+    transition: 0.5s;
+}
+.nav{
+    float: right;
+    margin: 100px 200px;
+    list-style: none;
+    margin-top: 70px;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.nav a{
+    color: #e7dccd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+.nav a:hover{
+    border-bottom: 5px orange solid;
+    transition: 0.5s;
+}
+.section1{
+    height: 106vh;
+    background-image: linear-gradient(rgba(158, 157, 157, 0.5), rgba(158, 156, 156, 0.3)), url("menu.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 7%;
+    padding-left: 21%;
+}
+.card{
+    width: 20%;
+    height: 445px;
+    padding: 1%; 
+    margin-right: 80px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0px 2px 22px 15px rgba(44, 44, 44, 0.75);
+    
+}
+.pizza{
+    width: 100%
+}
+.card h3{
+    padding: 7%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+}
+.card h4{
+    padding: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 10px;
+    color: #ff4500;
+}
+.card p{
+    font-size: 110%;
+    margin-bottom: 10%;
+}
+.btn-card{
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px grey solid;
+    border-radius: 20px;
+    margin-left: 25%;
+    color: #ff4500;
+    font-weight: bolder;
+}
+.btn-card:hover{
+    color: white;
+    background-color: #ff4500;
+    transition: 0.5s;
+}
+.section2{
+    height: 100vh;
+    background-color: rgb(232, 232, 232);
+    background-attachment: fixed;
+}
+.row{
+    width: 1100px;
+    margin: 0 auto;
+}
+.ourteam{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 200%;
+    color: #ff4500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+.OTCards{
+   width: 100%;
+   padding: 50px;
+   height: 300px;
+}
+.OTC-image{
+   
+   display: inline-block;
+   padding-right: 10px;
+}
+.OTC-name{
+    font-size: x-large;
+    padding-bottom: 10px;
+    color: #0000ff;
+}
+.Steph p{
+    font-size: large;
+}
+footer{
+    height: 10vh;
+    background-color: #1c1c1c;
+
+}
+.cpr{
+    color: #a9a9a9;
+    text-align: center;
+    font-size: medium;
+}
+.addition{
+    text-align: center;
+    color: #a9a9a9;
+    font-size: medium;
+    margin-top: 5px;
+}
